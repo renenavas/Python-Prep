@@ -1,8 +1,14 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
+## Grabación de la Clase 9
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/678752961" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 ## Vinculación con Datos Externos
 
-Es muy importante tener en cuenta que va a ser necesario interactuar con el usuario y trabajar con datos que están alojados en medios externos, puede tratarse de un sistema de archivos ó de una tabla en una base datos entre otras fuentes.
+Es muy importante tener en cuenta que va a ser necesario interactuar con el usuario y trabajar con datos que están alojados en medios externos, puede tratarse de un sistema de archivos ó de una tabla en una base datos, entre otras fuentes.
 Es posible realizar operaciones de interacción con el usuario y manipular archivos usando métodos para leer y escribir desde y hacia el sistema de archivos.
 
 ### Entrada / Salida
@@ -228,7 +234,7 @@ En la variable 'text' ahora tenemos el texto del sitio web al que consultamos.
 
 ## Homework
 
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/08%20-%20Error%20Handling/Prep_Course_Homework_08.md)
+Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/main/09%20-%20Entrada-Salida%20y%20Manejo%20de%20Archivos/Prep_Course_Homework_09.md)
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
