@@ -1,5 +1,11 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
+## Grabación de la Clase 7
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/678360524" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 ## Clases y objetos (POO)
 
 El alto grado de planificación y previsión que requiere la programación es contrario a la propia realidad. El hombre aprende y crea a través de la experimentación, no de la planeación. La Orientación a Objetos (POO) brinda estos métodos de experimentación, y logra que los lenguajes sean de más alto nivel, es decir, más cercanos a como los humanos pensamos el mundo. Los seres humanos, vemos la realidad como objetos que se interrelacionan y realizan acciones, y esto, es lo que se intenta emular en la POO.
@@ -7,7 +13,7 @@ Hasta 1966 la programación fue exclusivamente lineal, hasta que surgieron lengu
 
 ### Objeto
 
-Una estructura de datos que eventualmente tiene funciones asociadas, que están agrupados por razones de consistencia y comodidad conforman un **objeto**.
+Una estructura de datos que eventualmente tiene funciones asociadas, y que están agrupados por razones de consistencia y comodidad conforman un **objeto**.
 En la composición de un objeto tenemos entonces **propiedades** (datos) y **métodos** (funciones asociadas).
 
 ### Clase
@@ -149,7 +155,7 @@ Los módulos o librerías, permiten que Python pueda ser utilizado en diferentes
 - **Ciencia y Educación**: debido a su sintaxis tan sencilla, es una herramienta perfecta para enseñar conceptos de programación a todos los niveles. En lo relativo a ciencia y cálculo numérico, existen gran cantidad de librerías como SciPy o Pandas.
 - **Desarrollo de Interfaces Gráficos**: gran cantidad de los programas que utilizamos tienen un interfaz gráfico que facilita su uso. Python también puede ser usado para desarrollar GUIs con librerías como Kivy o pyqt.
 - **Desarrollo Software**: también es usado como soporte para desarrolladores, como para testing.
-- **Machine Learning**: en los último años ha crecido el número de implementaciones en Python de librerías de aprendizaje automático como Keras, TensorFlow, PyTorch o sklearn.
+- **Machine Learning**: en los últimos años ha crecido el número de implementaciones en Python de librerías de aprendizaje automático como Keras, TensorFlow, PyTorch o sklearn.
 - **Visualización de Datos**: existen varias librerías muy usadas para mostrar datos en gráficas, como matplotlib, seaborn o plotly.
 - **Finanzas y Trading**: gracias a librerías como QuantLib o qtpylib y a su facilidad de uso, es cada vez más usado en estos sectores.
 

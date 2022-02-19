@@ -5,7 +5,7 @@
 ## Grabación de la Clase 1
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/674550186" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/675578368" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
 #### Preparando tu computadora
@@ -379,6 +379,14 @@ Para conocer mejor el lenguaje que estaremos aprendiendo les compartimos una col
 17) Si la implementación es difícil de explicar, es una mala idea.
 18) Si la implementación es fácil de explicar, puede que sea una buena idea.
 19) Los namespaces son una gran idea, ¡tengamos más de esos!
+
+## Recursos adicionales
+
+* [Introducción al Pensamiento Computacional] (https://github.com/karlbehrensg/introduccion-pensamiento-computacional)
+* [Entrenamiento Básico] (https://entrenamiento-python-basico.readthedocs.io/es/latest)
+* [El Libro de Python] (https://ellibrodepython.com/)
+* [Python para todos] (https://www.py4e.com)
+* [Curso Python Videos] (https://youtu.be/G2FCfQj-9ig)
 
 ## Homework
 

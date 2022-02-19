@@ -1,5 +1,11 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
+## Grabación de la Clase 8
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/678360802" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 ## Manejo de Errores
 
 ### Pruebas de caja negra
@@ -92,7 +98,7 @@ OK
 
 Los bugs son un problema que les sucede a todos, sin embargo si realizamos test a nuestro programa probablemente tendremos menos bugs, pero esto no es suficiente.
 Existen unas reglas generales que nos ayudaran:
-No te molestes con el debugger. Aprende a utilizar el print statement.
+* Aprende a utilizar el print statement.
 * Estudia los datos disponibles.
 * Utiliza los datos para crear hipótesis y experimentos. Método científico.
 * Ten una mente abierta. Si entendes el programa, probablemente no habrán bugs.
