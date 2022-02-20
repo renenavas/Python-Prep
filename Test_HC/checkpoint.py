@@ -12,7 +12,14 @@ def ListaEnteros(inicio, tamanio):
     '''
     lista = []
     #Tu código aca:
-    return lista
+    if tamanio < 1:
+        raise  ValueError('el tamanio debe ser enteros positivos')
+    try:
+        for i in range(inicio,inicio+tamanio):
+            lista.append(i)
+        return lista
+    except:
+        raise ValueError('Los parametros deben ser enteros positivos')
 
 def DividirDosNumeros(dividendo, divisor):
     '''
@@ -26,7 +33,14 @@ def DividirDosNumeros(dividendo, divisor):
     parte_entera = None
     resto = None
     #Tu código aca:
-    return parte_entera, resto
+    try:    
+        parte_entera = dividendo // divisor
+        resto = dividendo % divisor
+        return parte_entera, resto
+    except ZeroDivisionError:
+        print('El divisor no puede ser 0')
+    except TypeError:
+        print('Los parametros deben ser enteros')
 
 def Factorial(numero):
     '''
@@ -39,7 +53,13 @@ def Factorial(numero):
         Factorial(-2) debe retornar nulo
     '''
     #Tu código aca:
-    return None
+    if type(numero) != int or numero < 1:
+        return None
+    else:
+        if numero == 1:
+            return 1
+        else:
+            return numero * Factorial(numero-1)
 
 def ProximoPrimo(actual_primo):
     '''
@@ -52,7 +72,28 @@ def ProximoPrimo(actual_primo):
         ProximoPrimo(8) debe retornar nulo
     '''
     #Tu código aca:
-    return None
+    if type(actual_primo) != int:
+        return None
+    
+    def es_primo(x):
+        if x == 1 or x == 0:
+            return False
+        primo = True
+        j = 2
+        while j < x:
+            if x % j == 0:
+                return False
+            j += 1
+        return primo
+    
+    if es_primo(actual_primo) == False:
+        return None
+    else:
+        n = actual_primo +1
+        while es_primo(n) == False:
+            n += 1
+        return n
+   
 
 def NumeroCapicua(numero):
     '''
@@ -69,4 +110,13 @@ def NumeroCapicua(numero):
         NumeroCapicua(108) debe retornar False
     '''
     #Tu código aca:
-    return None
+    if type(numero) != int:
+        return None
+    backwards = str(numero)
+    backwards = backwards[::-1]
+    backwards = int(backwards)
+    
+    if numero == backwards:
+        return True
+    else:
+        return False
