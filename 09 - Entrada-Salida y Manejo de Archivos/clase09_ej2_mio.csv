@@ -1,0 +1,5 @@
+timestamp,humedad,temperatura,lluvia
+1645326801,20,30,True
+1645326860,20,30,True
+1645326866,20,30,True
+1645326888,10,90,True
